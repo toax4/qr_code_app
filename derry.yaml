@@ -1,0 +1,6 @@
+reload:
+  - flutter clean 
+  - flutter pub get
+
+adb_connect:
+  - adb tcpip 5555 && adb connect 
